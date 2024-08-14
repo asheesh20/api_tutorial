@@ -1,3 +1,4 @@
+import 'package:api_tutorial/views/example_three.dart';
 import 'package:api_tutorial/views/example_two.dart';
 import 'package:api_tutorial/views/home_screen.dart';
 import 'package:flutter/material.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(context) {
     return MaterialApp(
       //home: HomeScreen(),
-      home: ExampleTwo(),
+      home: ExampleThree(),
     );
   }
 }
